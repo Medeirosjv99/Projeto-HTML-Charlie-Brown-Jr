@@ -9,14 +9,12 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #a50101;
     color: #f1f1f1;
     line-height: 1.6;
     padding: 20px;
 }
 
-
-/* Overlay pra escurecer e deixar texto legível */
 body::before {
     content: "";
     position: fixed;
@@ -33,13 +31,13 @@ body::before {
 
 .main-title {
     font-size: 3rem;
-    color: #f9ca24;
+    color: #f5f5f5;
     text-shadow: 2px 2px #000;
 }
 
 .main-paragraph {
     font-size: 1.2rem;
-    color: #ccc;
+    color: #f9ca24;
 }
 
 .featured-image {
@@ -51,20 +49,20 @@ body::before {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(255, 218, 10, 0.541);
 }
 
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #aaa;
+    color: #ffffff60;
 }
 
 .biography-container {
-    background-color: #1e1e1e;
+    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 8px rgba(255, 218, 10, 0.541);
 }
 
 .biography-container h2 {
@@ -75,20 +73,6 @@ figcaption {
 .biography-container p {
     color: #ddd;
     text-align: justify;
-}
-
-/* imagem de fundo do chorão */
-body {
-    background: url('img/4.jpeg') no-repeat center center fixed;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #f1f1f1;
-    position: relative;
-}
-
-body {
-    background: linear-gradient(135deg, #1e1e1e, #000000);
-    color: #f1f1f1;
 }
 
 @media (max-width: 768px) {
