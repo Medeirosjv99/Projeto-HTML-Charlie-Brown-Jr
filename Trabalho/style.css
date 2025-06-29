@@ -24,6 +24,23 @@ body::before {
     z-index: -1;
 }
 
+.wiki-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2e2e2e;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.wiki-button:hover {
+  background-color: #d6ad14;
+}
+
+
 .header {
     text-align: center;
     margin-bottom: 30px;
@@ -131,6 +148,23 @@ figcaption {
   line-height: 1.2;
 }
 
+
+.spotify-button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #1db954;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  width: fit-content;
+  transition: background 0.3s ease;
+}
+
+.spotify-button:hover {
+  background-color: #1ed760;
+}
 
 @media (max-width: 768px) {
     .main-title {
