@@ -59,7 +59,7 @@ figcaption {
 }
 
 .biography-container {
-    background-color: #000000;
+    background-color: #121212;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(255, 218, 10, 0.541);
@@ -74,6 +74,55 @@ figcaption {
     color: #ddd;
     text-align: justify;
 }
+
+/* estilo spotify */
+
+.playlist {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #121212;
+  border-radius: 10px;
+  color: #f9ca24;
+  font-family: Arial, sans-serif;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #2a2a2a;
+  transition: background 0.2s ease;
+}
+
+.track:hover {
+  background-color: #1a1a1a;
+}
+
+.album-cover {
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.track-meta {
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
 
 @media (max-width: 768px) {
     .main-title {
