@@ -28,12 +28,13 @@ body::before {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #2e2e2e;
-  color: #000;
+  background-color: #121212;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 5px;   
   transition: background 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 218, 10, 0.541);
 }
 
 .wiki-button:hover {
